@@ -12,6 +12,8 @@
     // top: 44.5px;
     @media screen and (max-width:768px) {
         background:url(../img/bg.jpg) center center /cover no-repeat;
+        background-attachment: none;
+        min-height: 400px;
         }
     &__header{
         margin-top: 120px;
