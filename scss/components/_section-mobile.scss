@@ -1,0 +1,97 @@
+.section-mobile{
+    background-image: url(../img/mobile_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    &__description{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 1.24;
+        text-align: center;
+        color: #222;
+    }
+    &__wrap{
+       display: flex;
+       gap: 15px;
+       column-gap: 50px;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    &__list{
+      position: relative;
+      width: 320px;
+      height: 280px;
+
+         &_1{
+            background-image:url(../img/bg/card-bg-1.jpg);
+            @include bg-card;
+        }
+        &_2{
+            background-image:url(../img/bg/card-bg-2.jpg);
+            @include bg-card;
+        }
+        &_3{
+            background-image:url(../img/bg/card-bg-3.jpg);
+            @include bg-card;
+        }
+        &_4{
+            background-image:url(../img/bg/card-bg-4.jpg);
+            @include bg-card;
+        }
+        &_5{
+            background-image:url(../img/bg/card-bg-5.jpg);
+            @include bg-card;
+        }
+        &_6{
+            background-image:url(../img/bg/card-bg-6.png);
+            @include bg-card;
+        }
+    }
+    &__title{     
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 129%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        margin-top: 110px;
+    } 
+    &__circle{
+        width: 29px;
+        height: 29px;
+        border-radius: 100%;
+        background-color: #000;
+        position: absolute;
+        top:240px;
+        left: calc(50% - 29px/2);
+
+        &::before{
+            content:'';
+            display: block;
+            background-color:#1EACC7;
+            width: 14px;
+            height: 2px;
+            position: absolute;
+            top:calc(50% - 2px/2);
+            left:calc(50% - 14px/2);
+            transition: 0.3s all;
+        }
+        &::after{
+            content:'';
+            display: block;
+            background-color: #1EACC7;
+            width: 2px;
+            height: 14px;
+            position: absolute;
+            top:calc(50% - 14px/2);
+            left:calc(50% - 2px/2);
+            transition: 0.3s all;
+        }
+        &:hover {
+            &::after,
+            &::before{
+            background-color: #fff;
+        }}
+    }
+    }

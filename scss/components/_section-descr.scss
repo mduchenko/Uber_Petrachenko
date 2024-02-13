@@ -1,0 +1,66 @@
+.section-descr{
+    // background:url('../img/uber_bg.jpg') center center/cover no-repeat;
+    background-image: url('../img/uber_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 799px;
+    display: block;
+    // position: relative;
+    // top: 44.5px;
+    &__header{
+        margin-top: 120px;
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        text-transform: uppercase;
+        @media screen and (max-width:768px) {
+          margin-top: 306px; 
+          font-size: 40px; 
+        }
+        
+    }
+    &__invitation{
+        margin-top: 10px;
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.3;
+         @media screen and (max-width:576px) {
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+    }
+    &__about{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.33;
+        @media screen and (max-width:576px) {
+           display: none;
+           min-height: 600px;
+        }
+        
+    }
+    &__btn{
+        display: block;
+        margin: 0 auto;
+        width: 259px;
+        height: 63px;
+        color:#FFF;
+        text-transform: uppercase;
+        border-radius: 4px;
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+        &:hover{
+            background: linear-gradient(0deg, #94a7ab 0%, #daecf0 100%);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@mixin bg-card{    
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+}
+@mixin copputer{
+    max-width: 1200px;
+}
+@mixin desktop-lg{
+   max-width: 992px; 
+}
+@mixin desktop{
+ max-width: 768px; 
+}
+@mixin mobile{
+    max-width: 576px;  
+}

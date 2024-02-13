@@ -1,0 +1,34 @@
+.header-second{
+    width: 115px;
+    height: 27px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5; /* 100% */
+    text-transform: uppercase;
+    background-color:black;
+    margin-top: 15px;
+    &_white{
+        color:#000;
+        background-color:#FFF;
+    }
+    
+}
+.header-third{
+    margin-top: 20px;
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.26;
+    text-transform: uppercase;
+    &_white{
+        color:#FFF;
+    }
+    @media screen and (max-width: 768px){
+         font-size: 16px;
+        }
+}

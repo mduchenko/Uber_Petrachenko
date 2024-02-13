@@ -1,0 +1,28 @@
+.section-geography{
+    padding: 20px;
+    background:url(../img/world_bg.jpg) center center /cover no-repeat;
+    &__title{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 124%;
+        text-align: center;
+        color: #fff;
+    }
+    &__link{
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 453%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1fbad6;
+        margin: 500px auto 0;
+        &:hover{
+            color:#fff;
+        }
+        @media screen and (max-width:768px) {
+         margin: 200px auto 0;
+        }
+    }
+}
