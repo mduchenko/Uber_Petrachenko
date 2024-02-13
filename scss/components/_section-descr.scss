@@ -1,12 +1,12 @@
 .section-descr{
-    // background:url('../img/uber_bg.jpg') center center/cover no-repeat;
-    background-image: url('../img/uber_bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background:url('../img/uber_bg.jpg') center center /cover no-repeat;
+    // background-image: url('../img/uber_bg.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-attachment: fixed;
     min-height: 799px;
-    display: block;
+    // display: block;
     // position: relative;
     // top: 44.5px;
     @media screen and (max-width:768px) {
